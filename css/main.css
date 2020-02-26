@@ -12,6 +12,9 @@ html, body {
     height: 100vh;
     box-sizing: border-box;
 
+    position: relative;
+    flex-direction: column;
+
     padding-top: 30vh;
 }
 
@@ -19,7 +22,7 @@ html, body {
     color: #fff;
 
     width: 60vw;
-    height: 30vw;
+    height: fit-content;
 
     margin-left: 10vw;
 }
@@ -37,13 +40,15 @@ html, body {
     font-size: 18px;
 }
 
-.arrow-down {
-    fill: white;
-}
 
 .intro-lower-text {
-    width: fit-content;
+    width: 100%;
+    height: fit-content;
     margin: 0 auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
 }
 
 .intro-lower-text a {
