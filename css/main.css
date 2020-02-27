@@ -139,7 +139,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
     margin: 0 auto;
-    
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
 .info-page p.description {
@@ -150,6 +150,7 @@ html, body {
     display: block;
     margin: 0 auto;
     margin-top: 60px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
 
