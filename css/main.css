@@ -75,7 +75,7 @@ html, body {
     height: 100vh;
     width: 100%;
     box-sizing: border-box;
-    background-color: #fffcef;
+    background-color: var(--color-base);
 }
 
 .info-block-1 h1.title {
@@ -89,5 +89,39 @@ html, body {
     margin: 0 auto;
     width: fit-content;
     text-align: center;
-    padding-top: 20vh;
+    padding-top: 30vh;
+    width: 60vw;
+}
+
+.info-block-1 .inner-content p.content {
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.btn {
+    display: block;
+}
+
+.btn.btn-brown {
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    transition-duration: .5s;
+}
+
+.btn.btn-brown:hover {
+    color: var(--color-base);
+    background-color: var(--color-accent);
+}
+
+#info1btn {
+    margin-top: 40px;
 }
