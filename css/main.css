@@ -61,14 +61,16 @@ body {
     bottom: 30px;
 }
 
-.intro-lower-text a {
+.intro-lower-text button {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #fff;
     text-decoration: none;
+    background: none;
+    border: 0;
 }
 
-.intro-lower-text a:hover {
+.intro-lower-text button:hover {
     text-decoration: underline;
 }
 
